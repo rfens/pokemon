@@ -11,3 +11,16 @@ C:\Users\HP 650 G1 i7 SSD\Desktop\school\periode 3\GAB\MonsterBattle\MonsterBatt
 C:\Users\HP 650 G1 i7 SSD\Desktop\school\periode 3\GAB\MonsterBattle\MonsterBattle\bin\Debug\AudioSwitcher.AudioApi.CoreAudio.dll
 C:\Users\HP 650 G1 i7 SSD\Desktop\school\periode 3\GAB\MonsterBattle\MonsterBattle\bin\Debug\AudioSwitcher.AudioApi.dll
 C:\Users\HP 650 G1 i7 SSD\Desktop\school\periode 3\GAB\MonsterBattle\MonsterBattle\obj\Debug\MonsterBattle.csproj.CopyComplete
+C:\Users\Charlotte van Oers\Documents\Radius College\Radius College\leerjaar 1\Periode 3 en 4\GAP\pokemon\MonsterBattle\MonsterBattle\bin\Debug\MonsterBattle.exe.config
+C:\Users\Charlotte van Oers\Documents\Radius College\Radius College\leerjaar 1\Periode 3 en 4\GAP\pokemon\MonsterBattle\MonsterBattle\bin\Debug\MonsterBattle.exe
+C:\Users\Charlotte van Oers\Documents\Radius College\Radius College\leerjaar 1\Periode 3 en 4\GAP\pokemon\MonsterBattle\MonsterBattle\bin\Debug\MonsterBattle.pdb
+C:\Users\Charlotte van Oers\Documents\Radius College\Radius College\leerjaar 1\Periode 3 en 4\GAP\pokemon\MonsterBattle\MonsterBattle\bin\Debug\AudioSwitcher.AudioApi.CoreAudio.dll
+C:\Users\Charlotte van Oers\Documents\Radius College\Radius College\leerjaar 1\Periode 3 en 4\GAP\pokemon\MonsterBattle\MonsterBattle\bin\Debug\AudioSwitcher.AudioApi.dll
+C:\Users\Charlotte van Oers\Documents\Radius College\Radius College\leerjaar 1\Periode 3 en 4\GAP\pokemon\MonsterBattle\MonsterBattle\obj\Debug\MonsterBattle.csprojAssemblyReference.cache
+C:\Users\Charlotte van Oers\Documents\Radius College\Radius College\leerjaar 1\Periode 3 en 4\GAP\pokemon\MonsterBattle\MonsterBattle\obj\Debug\MonsterBattle.BattleForm.resources
+C:\Users\Charlotte van Oers\Documents\Radius College\Radius College\leerjaar 1\Periode 3 en 4\GAP\pokemon\MonsterBattle\MonsterBattle\obj\Debug\MonsterBattle.Properties.Resources.resources
+C:\Users\Charlotte van Oers\Documents\Radius College\Radius College\leerjaar 1\Periode 3 en 4\GAP\pokemon\MonsterBattle\MonsterBattle\obj\Debug\MonsterBattle.csproj.GenerateResource.cache
+C:\Users\Charlotte van Oers\Documents\Radius College\Radius College\leerjaar 1\Periode 3 en 4\GAP\pokemon\MonsterBattle\MonsterBattle\obj\Debug\MonsterBattle.csproj.CoreCompileInputs.cache
+C:\Users\Charlotte van Oers\Documents\Radius College\Radius College\leerjaar 1\Periode 3 en 4\GAP\pokemon\MonsterBattle\MonsterBattle\obj\Debug\MonsterBattle.csproj.CopyComplete
+C:\Users\Charlotte van Oers\Documents\Radius College\Radius College\leerjaar 1\Periode 3 en 4\GAP\pokemon\MonsterBattle\MonsterBattle\obj\Debug\MonsterBattle.exe
+C:\Users\Charlotte van Oers\Documents\Radius College\Radius College\leerjaar 1\Periode 3 en 4\GAP\pokemon\MonsterBattle\MonsterBattle\obj\Debug\MonsterBattle.pdb
