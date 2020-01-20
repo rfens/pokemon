@@ -33,6 +33,12 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="AudioSwitcher.AudioApi, Version=3.0.0.209, Culture=neutral, PublicKeyToken=fda5729e2db3a64f, processorArchitecture=MSIL">
+      <HintPath>..\packages\AudioSwitcher.AudioApi.3.0.0\lib\net40\AudioSwitcher.AudioApi.dll</HintPath>
+    </Reference>
+    <Reference Include="AudioSwitcher.AudioApi.CoreAudio, Version=3.0.0.209, Culture=neutral, PublicKeyToken=fda5729e2db3a64f, processorArchitecture=MSIL">
+      <HintPath>..\packages\AudioSwitcher.AudioApi.CoreAudio.3.0.0.1\lib\net40\AudioSwitcher.AudioApi.CoreAudio.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
@@ -59,18 +65,19 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
-      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
       <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
     </EmbeddedResource>
-    <Compile Include="Properties\Resources.Designer.cs">
-      <AutoGen>True</AutoGen>
-      <DependentUpon>Resources.resx</DependentUpon>
-      <DesignTime>True</DesignTime>
-    </Compile>
+    <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
     </None>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
     <Compile Include="Properties\Settings.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Settings.settings</DependentUpon>
@@ -106,6 +113,62 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\attack_lightning.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="sounds\Yeet Sound Effect.wav" />
+    <None Include="sounds\R2 D2 Scream.wav" />
+    <None Include="sounds\bruh Sound Effect %28download%29.wav" />
+    <None Include="sounds\ALLAHU AKBAR Sound Effect [Download link].wav" />
+    <None Include="sounds\hentai.wav" />
+    <None Include="Resources\bulbasaur.jpg" />
+    <None Include="afbeeldingen\bulbasaur.jpg" />
+    <None Include="afbeeldingen\eevee.jpg" />
+    <None Include="afbeeldingen\mew.jpg" />
+    <None Include="afbeeldingen\mewtwo.jpg" />
+    <None Include="afbeeldingen\squirtle.jpg" />
+    <None Include="afbeeldingen\giphy.gif" />
+    <None Include="afbeeldingen\hidden_attack.gif" />
+    <None Include="afbeeldingen\tank_attack.gif" />
+    <None Include="afbeeldingen\gun.gif" />
+    <None Include="afbeeldingen\attackers\hitler-removebg.png" />
+    <None Include="afbeeldingen\attackers\tachanka.png" />
+    <None Include="afbeeldingen\attackers\Sanic.png" />
+    <None Include="afbeeldingen\attackers\ghost.png" />
+    <None Include="afbeeldingen\attackers\chief-removebg.png" />
+    <None Include="afbeeldingen\attackers\kirby.png" />
+    <None Include="afbeeldingen\attackgif\tank_attack.gif" />
+    <None Include="afbeeldingen\attackgif\hidden_attack.gif" />
+    <None Include="afbeeldingen\attackgif\gun.gif" />
+    <None Include="afbeeldingen\attackgif\giphy.gif" />
+    <None Include="afbeeldingen\enemy\dipsy-removebg.png" />
+    <None Include="afbeeldingen\enemy\Chicken.png" />
+    <None Include="afbeeldingen\enemy\tank-removebg.png" />
+    <None Include="afbeeldingen\enemy\goomba.png" />
+    <None Include="afbeeldingen\enemy\link-removebg.png" />
+    <None Include="afbeeldingen\enemy\walle-removebg.png" />
+    <None Include="afbeeldingen\attackers\eeyore.jpg" />
+    <None Include="afbeeldingen\attackers\eeyore-removebg.png" />
+    <None Include="afbeeldingen\attackers\perry-removebg.png" />
+    <None Include="afbeeldingen\attackers\jerry-removebg.png" />
+    <None Include="afbeeldingen\attackers\knukles.png" />
+    <None Include="afbeeldingen\attackers\spongebob.png" />
+    <None Include="afbeeldingen\attackers\Cleaner-removebg.png" />
+    <None Include="afbeeldingen\attackers\deadpool-trailer-2-removebg-preview.png" />
+    <None Include="afbeeldingen\attackers\toad.png" />
+    <None Include="afbeeldingen\attackers\NotAMarioFan_Toad_render_-removebg-preview %281%29.png" />
+    <None Include="Resources\cat-removebg-preview.png" />
+    <None Include="Resources\bb8.png" />
+    <None Include="Resources\bb8.jpg" />
+    <None Include="afbeeldingen\bobross.jpg" />
+    <None Include="afbeeldingen\bobross-removebg-preview.png" />
+    <None Include="afbeeldingen\iron-man-removebg-preview.png" />
+    <None Include="afbeeldingen\cc33AhQt-removebg-preview.png" />
+    <Content Include="Resources\hidden_attack.gif" />
+    <Content Include="Resources\pikachu.jpg" />
+    <Content Include="Resources\eevee.jpg" />
+    <Content Include="Resources\mew.jpg" />
+    <Content Include="Resources\mewtwo.jpg" />
+    <Content Include="Resources\squirtle.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
