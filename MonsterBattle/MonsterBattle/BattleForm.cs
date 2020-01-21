@@ -585,9 +585,6 @@ namespace MonsterBattle
             Feckermonnamelabel.Text = "";
             enemynamelabel.Text = "";
 
-
-
-
             //deck 1
             Feckermon1RadioButton.Checked = false;
             Feckermon2RadioButton.Checked = false;
@@ -603,6 +600,19 @@ namespace MonsterBattle
             feckermon2_5radbuttn.Checked = false;
             feckermon2_6radbuttn.Checked = false;
             //deck 3
+            feckermon1Button.Checked = false;
+            feckermon2Button.Checked = false;
+            feckermon3Button.Checked = false;
+            feckermon4Button.Checked = false;
+            feckermon5Button.Checked = false;
+            feckermon6Button.Checked = false;
+            //deck 4
+            deck4R1.Checked = false;
+            deck4R2.Checked = false;
+            deck4R3.Checked = false;
+            deck4R4.Checked = false;
+            deck4R5.Checked = false;
+            deck4R6.Checked = false;
 
             //enemy deck
             attacker1radiobutton.Checked = false;
@@ -661,6 +671,16 @@ namespace MonsterBattle
             feckermon2groupbox.Visible = false;
         }
 
-        
+        private void ChangeAttackSetToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            attackSet1GroupBox.Visible = true;
+            attackSet2GroupBox.Visible = false;
+        }
+
+        private void AttackSet2ToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            attackSet1GroupBox.Visible = false;
+            attackSet2GroupBox.Visible = true; 
+        }
     }
 }

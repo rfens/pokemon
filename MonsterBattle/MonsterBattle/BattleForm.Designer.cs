@@ -65,7 +65,6 @@
             this.feckermon4Button = new System.Windows.Forms.RadioButton();
             this.feckermon5Button = new System.Windows.Forms.RadioButton();
             this.feckermon1Button = new System.Windows.Forms.RadioButton();
-            this.panel1 = new System.Windows.Forms.Panel();
             this.groupBoxDeck4 = new System.Windows.Forms.GroupBox();
             this.deck4R6 = new System.Windows.Forms.RadioButton();
             this.deck4R5 = new System.Windows.Forms.RadioButton();
@@ -73,6 +72,7 @@
             this.deck4R3 = new System.Windows.Forms.RadioButton();
             this.deck4R2 = new System.Windows.Forms.RadioButton();
             this.deck4R1 = new System.Windows.Forms.RadioButton();
+            this.panel1 = new System.Windows.Forms.Panel();
             this.panel3 = new System.Windows.Forms.Panel();
             this.Feckermonnamelabel = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
@@ -92,12 +92,17 @@
             this.deck2ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.deck3ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.deck4ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.attackSet1GroupBox = new System.Windows.Forms.GroupBox();
+            this.changeAttackSetToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.attackSet1ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.attackSet2ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.attackSet2GroupBox = new System.Windows.Forms.GroupBox();
             this.Feckermongroupbox.SuspendLayout();
             this.EnemyGroupBox.SuspendLayout();
             this.feckermon2groupbox.SuspendLayout();
             this.feckermon3groupbox.SuspendLayout();
-            this.panel1.SuspendLayout();
             this.groupBoxDeck4.SuspendLayout();
+            this.panel1.SuspendLayout();
             this.panel3.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.panel2.SuspendLayout();
@@ -105,6 +110,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.enemyPictureBox)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.friendlyPictureBox)).BeginInit();
             this.menuStrip1.SuspendLayout();
+            this.attackSet1GroupBox.SuspendLayout();
             this.SuspendLayout();
             // 
             // attackTimer
@@ -120,10 +126,10 @@
             // button1
             // 
             this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.Location = new System.Drawing.Point(368, 322);
+            this.button1.Location = new System.Drawing.Point(330, 22);
             this.button1.Margin = new System.Windows.Forms.Padding(4);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(176, 52);
+            this.button1.Size = new System.Drawing.Size(99, 36);
             this.button1.TabIndex = 2;
             this.button1.Text = "rocket ";
             this.button1.UseVisualStyleBackColor = true;
@@ -132,10 +138,10 @@
             // button2
             // 
             this.button2.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button2.Location = new System.Drawing.Point(552, 322);
+            this.button2.Location = new System.Drawing.Point(437, 22);
             this.button2.Margin = new System.Windows.Forms.Padding(4);
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(176, 52);
+            this.button2.Size = new System.Drawing.Size(155, 36);
             this.button2.TabIndex = 3;
             this.button2.Text = "sniper shot";
             this.button2.UseVisualStyleBackColor = true;
@@ -144,10 +150,10 @@
             // button3
             // 
             this.button3.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button3.Location = new System.Drawing.Point(184, 322);
+            this.button3.Location = new System.Drawing.Point(160, 22);
             this.button3.Margin = new System.Windows.Forms.Padding(4);
             this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(176, 52);
+            this.button3.Size = new System.Drawing.Size(158, 36);
             this.button3.TabIndex = 4;
             this.button3.Text = "Gass attack";
             this.button3.UseVisualStyleBackColor = true;
@@ -258,10 +264,10 @@
             // attackButton
             // 
             this.attackButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.attackButton.Location = new System.Drawing.Point(0, 322);
+            this.attackButton.Location = new System.Drawing.Point(12, 22);
             this.attackButton.Margin = new System.Windows.Forms.Padding(4);
             this.attackButton.Name = "attackButton";
-            this.attackButton.Size = new System.Drawing.Size(176, 52);
+            this.attackButton.Size = new System.Drawing.Size(142, 36);
             this.attackButton.TabIndex = 1;
             this.attackButton.Text = "Explosion";
             this.attackButton.UseVisualStyleBackColor = true;
@@ -548,21 +554,6 @@
             this.feckermon1Button.UseVisualStyleBackColor = true;
             this.feckermon1Button.CheckedChanged += new System.EventHandler(this.feckermon1Button_CheckedChanged);
             // 
-            // panel1
-            // 
-            this.panel1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("panel1.BackgroundImage")));
-            this.panel1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.panel1.Controls.Add(this.panel3);
-            this.panel1.Controls.Add(this.panel2);
-            this.panel1.Controls.Add(this.enemyPictureBox);
-            this.panel1.Controls.Add(this.friendlyPictureBox);
-            this.panel1.Controls.Add(this.menuStrip1);
-            this.panel1.Location = new System.Drawing.Point(0, 0);
-            this.panel1.Margin = new System.Windows.Forms.Padding(4);
-            this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(728, 324);
-            this.panel1.TabIndex = 0;
-            // 
             // groupBoxDeck4
             // 
             this.groupBoxDeck4.Controls.Add(this.deck4R6);
@@ -650,6 +641,22 @@
             this.deck4R1.Text = "Baby Yoda";
             this.deck4R1.UseVisualStyleBackColor = true;
             this.deck4R1.CheckedChanged += new System.EventHandler(this.Deck4R1_CheckedChanged);
+            // 
+            // panel1
+            // 
+            this.panel1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("panel1.BackgroundImage")));
+            this.panel1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.panel1.Controls.Add(this.attackSet2GroupBox);
+            this.panel1.Controls.Add(this.panel3);
+            this.panel1.Controls.Add(this.panel2);
+            this.panel1.Controls.Add(this.enemyPictureBox);
+            this.panel1.Controls.Add(this.friendlyPictureBox);
+            this.panel1.Controls.Add(this.menuStrip1);
+            this.panel1.Location = new System.Drawing.Point(0, 0);
+            this.panel1.Margin = new System.Windows.Forms.Padding(4);
+            this.panel1.Name = "panel1";
+            this.panel1.Size = new System.Drawing.Size(728, 324);
+            this.panel1.TabIndex = 0;
             // 
             // panel3
             // 
@@ -778,7 +785,8 @@
             this.menuStrip1.ImageScalingSize = new System.Drawing.Size(20, 20);
             this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.menuToolStripMenuItem,
-            this.chooseDeckToolStripMenuItem});
+            this.chooseDeckToolStripMenuItem,
+            this.changeAttackSetToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
             this.menuStrip1.Size = new System.Drawing.Size(728, 28);
@@ -822,45 +830,87 @@
             // deck1ToolStripMenuItem
             // 
             this.deck1ToolStripMenuItem.Name = "deck1ToolStripMenuItem";
-            this.deck1ToolStripMenuItem.Size = new System.Drawing.Size(137, 26);
+            this.deck1ToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
             this.deck1ToolStripMenuItem.Text = "Deck 1";
             this.deck1ToolStripMenuItem.Click += new System.EventHandler(this.deck1ToolStripMenuItem_Click);
             // 
             // deck2ToolStripMenuItem
             // 
             this.deck2ToolStripMenuItem.Name = "deck2ToolStripMenuItem";
-            this.deck2ToolStripMenuItem.Size = new System.Drawing.Size(137, 26);
+            this.deck2ToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
             this.deck2ToolStripMenuItem.Text = "Deck 2";
             this.deck2ToolStripMenuItem.Click += new System.EventHandler(this.deck2ToolStripMenuItem_Click);
             // 
             // deck3ToolStripMenuItem
             // 
             this.deck3ToolStripMenuItem.Name = "deck3ToolStripMenuItem";
-            this.deck3ToolStripMenuItem.Size = new System.Drawing.Size(137, 26);
+            this.deck3ToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
             this.deck3ToolStripMenuItem.Text = "Deck 3";
             this.deck3ToolStripMenuItem.Click += new System.EventHandler(this.deck3ToolStripMenuItem_Click);
             // 
             // deck4ToolStripMenuItem
             // 
             this.deck4ToolStripMenuItem.Name = "deck4ToolStripMenuItem";
-            this.deck4ToolStripMenuItem.Size = new System.Drawing.Size(137, 26);
+            this.deck4ToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
             this.deck4ToolStripMenuItem.Text = "Deck 4";
             this.deck4ToolStripMenuItem.Click += new System.EventHandler(this.Deck4ToolStripMenuItem_Click);
+            // 
+            // attackSet1GroupBox
+            // 
+            this.attackSet1GroupBox.Controls.Add(this.attackButton);
+            this.attackSet1GroupBox.Controls.Add(this.button3);
+            this.attackSet1GroupBox.Controls.Add(this.button1);
+            this.attackSet1GroupBox.Controls.Add(this.button2);
+            this.attackSet1GroupBox.Location = new System.Drawing.Point(0, 321);
+            this.attackSet1GroupBox.Name = "attackSet1GroupBox";
+            this.attackSet1GroupBox.Size = new System.Drawing.Size(728, 62);
+            this.attackSet1GroupBox.TabIndex = 6;
+            this.attackSet1GroupBox.TabStop = false;
+            this.attackSet1GroupBox.Text = "Attack Set 1";
+            // 
+            // changeAttackSetToolStripMenuItem
+            // 
+            this.changeAttackSetToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.attackSet1ToolStripMenuItem,
+            this.attackSet2ToolStripMenuItem});
+            this.changeAttackSetToolStripMenuItem.Name = "changeAttackSetToolStripMenuItem";
+            this.changeAttackSetToolStripMenuItem.Size = new System.Drawing.Size(144, 24);
+            this.changeAttackSetToolStripMenuItem.Text = "Change Attack Set";
+            this.changeAttackSetToolStripMenuItem.Click += new System.EventHandler(this.ChangeAttackSetToolStripMenuItem_Click);
+            // 
+            // attackSet1ToolStripMenuItem
+            // 
+            this.attackSet1ToolStripMenuItem.Name = "attackSet1ToolStripMenuItem";
+            this.attackSet1ToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
+            this.attackSet1ToolStripMenuItem.Text = "Attack Set 1";
+            // 
+            // attackSet2ToolStripMenuItem
+            // 
+            this.attackSet2ToolStripMenuItem.Name = "attackSet2ToolStripMenuItem";
+            this.attackSet2ToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
+            this.attackSet2ToolStripMenuItem.Text = "gr";
+            this.attackSet2ToolStripMenuItem.Click += new System.EventHandler(this.AttackSet2ToolStripMenuItem_Click);
+            // 
+            // attackSet2GroupBox
+            // 
+            this.attackSet2GroupBox.Location = new System.Drawing.Point(239, 164);
+            this.attackSet2GroupBox.Name = "attackSet2GroupBox";
+            this.attackSet2GroupBox.Size = new System.Drawing.Size(722, 62);
+            this.attackSet2GroupBox.TabIndex = 5;
+            this.attackSet2GroupBox.TabStop = false;
+            this.attackSet2GroupBox.Text = "Attack Set 2";
             // 
             // BattleForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(727, 470);
+            this.Controls.Add(this.attackSet1GroupBox);
             this.Controls.Add(this.groupBoxDeck4);
             this.Controls.Add(this.feckermon3groupbox);
             this.Controls.Add(this.EnemyGroupBox);
             this.Controls.Add(this.feckermon2groupbox);
             this.Controls.Add(this.Feckermongroupbox);
-            this.Controls.Add(this.button3);
-            this.Controls.Add(this.button2);
-            this.Controls.Add(this.button1);
-            this.Controls.Add(this.attackButton);
             this.Controls.Add(this.panel1);
             this.MainMenuStrip = this.menuStrip1;
             this.Margin = new System.Windows.Forms.Padding(4);
@@ -874,10 +924,10 @@
             this.feckermon2groupbox.PerformLayout();
             this.feckermon3groupbox.ResumeLayout(false);
             this.feckermon3groupbox.PerformLayout();
-            this.panel1.ResumeLayout(false);
-            this.panel1.PerformLayout();
             this.groupBoxDeck4.ResumeLayout(false);
             this.groupBoxDeck4.PerformLayout();
+            this.panel1.ResumeLayout(false);
+            this.panel1.PerformLayout();
             this.panel3.ResumeLayout(false);
             this.panel3.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
@@ -888,6 +938,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.friendlyPictureBox)).EndInit();
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();
+            this.attackSet1GroupBox.ResumeLayout(false);
             this.ResumeLayout(false);
 
         }
@@ -956,6 +1007,11 @@
         private System.Windows.Forms.RadioButton deck4R3;
         private System.Windows.Forms.RadioButton deck4R2;
         private System.Windows.Forms.RadioButton deck4R1;
+        private System.Windows.Forms.GroupBox attackSet1GroupBox;
+        private System.Windows.Forms.ToolStripMenuItem changeAttackSetToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem attackSet1ToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem attackSet2ToolStripMenuItem;
+        private System.Windows.Forms.GroupBox attackSet2GroupBox;
     }
 }
 
