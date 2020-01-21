@@ -66,6 +66,13 @@
             this.feckermon5Button = new System.Windows.Forms.RadioButton();
             this.feckermon1Button = new System.Windows.Forms.RadioButton();
             this.panel1 = new System.Windows.Forms.Panel();
+            this.groupBoxDeck4 = new System.Windows.Forms.GroupBox();
+            this.deck4R6 = new System.Windows.Forms.RadioButton();
+            this.deck4R5 = new System.Windows.Forms.RadioButton();
+            this.deck4R4 = new System.Windows.Forms.RadioButton();
+            this.deck4R3 = new System.Windows.Forms.RadioButton();
+            this.deck4R2 = new System.Windows.Forms.RadioButton();
+            this.deck4R1 = new System.Windows.Forms.RadioButton();
             this.panel3 = new System.Windows.Forms.Panel();
             this.Feckermonnamelabel = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
@@ -84,11 +91,13 @@
             this.deck1ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.deck2ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.deck3ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.deck4ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.Feckermongroupbox.SuspendLayout();
             this.EnemyGroupBox.SuspendLayout();
             this.feckermon2groupbox.SuspendLayout();
             this.feckermon3groupbox.SuspendLayout();
             this.panel1.SuspendLayout();
+            this.groupBoxDeck4.SuspendLayout();
             this.panel3.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.panel2.SuspendLayout();
@@ -554,6 +563,94 @@
             this.panel1.Size = new System.Drawing.Size(728, 324);
             this.panel1.TabIndex = 0;
             // 
+            // groupBoxDeck4
+            // 
+            this.groupBoxDeck4.Controls.Add(this.deck4R6);
+            this.groupBoxDeck4.Controls.Add(this.deck4R5);
+            this.groupBoxDeck4.Controls.Add(this.deck4R4);
+            this.groupBoxDeck4.Controls.Add(this.deck4R3);
+            this.groupBoxDeck4.Controls.Add(this.deck4R2);
+            this.groupBoxDeck4.Controls.Add(this.deck4R1);
+            this.groupBoxDeck4.Location = new System.Drawing.Point(12, 381);
+            this.groupBoxDeck4.Name = "groupBoxDeck4";
+            this.groupBoxDeck4.Size = new System.Drawing.Size(313, 85);
+            this.groupBoxDeck4.TabIndex = 7;
+            this.groupBoxDeck4.TabStop = false;
+            this.groupBoxDeck4.Text = "Feckermons";
+            this.groupBoxDeck4.Visible = false;
+            // 
+            // deck4R6
+            // 
+            this.deck4R6.AutoSize = true;
+            this.deck4R6.Location = new System.Drawing.Point(183, 49);
+            this.deck4R6.Name = "deck4R6";
+            this.deck4R6.Size = new System.Drawing.Size(61, 21);
+            this.deck4R6.TabIndex = 5;
+            this.deck4R6.TabStop = true;
+            this.deck4R6.Text = "Kaos";
+            this.deck4R6.UseVisualStyleBackColor = true;
+            this.deck4R6.CheckedChanged += new System.EventHandler(this.Deck4R6_CheckedChanged);
+            // 
+            // deck4R5
+            // 
+            this.deck4R5.AutoSize = true;
+            this.deck4R5.Location = new System.Drawing.Point(183, 21);
+            this.deck4R5.Name = "deck4R5";
+            this.deck4R5.Size = new System.Drawing.Size(55, 21);
+            this.deck4R5.TabIndex = 4;
+            this.deck4R5.TabStop = true;
+            this.deck4R5.Text = "Olaf";
+            this.deck4R5.UseVisualStyleBackColor = true;
+            this.deck4R5.CheckedChanged += new System.EventHandler(this.Deck4R5_CheckedChanged);
+            // 
+            // deck4R4
+            // 
+            this.deck4R4.AutoSize = true;
+            this.deck4R4.Location = new System.Drawing.Point(104, 48);
+            this.deck4R4.Name = "deck4R4";
+            this.deck4R4.Size = new System.Drawing.Size(66, 21);
+            this.deck4R4.TabIndex = 3;
+            this.deck4R4.TabStop = true;
+            this.deck4R4.Text = "Nemo";
+            this.deck4R4.UseVisualStyleBackColor = true;
+            this.deck4R4.CheckedChanged += new System.EventHandler(this.Deck4R4_CheckedChanged);
+            // 
+            // deck4R3
+            // 
+            this.deck4R3.AutoSize = true;
+            this.deck4R3.Location = new System.Drawing.Point(104, 21);
+            this.deck4R3.Name = "deck4R3";
+            this.deck4R3.Size = new System.Drawing.Size(72, 21);
+            this.deck4R3.TabIndex = 2;
+            this.deck4R3.TabStop = true;
+            this.deck4R3.Text = "Patrick";
+            this.deck4R3.UseVisualStyleBackColor = true;
+            this.deck4R3.CheckedChanged += new System.EventHandler(this.Deck4R3_CheckedChanged);
+            // 
+            // deck4R2
+            // 
+            this.deck4R2.AutoSize = true;
+            this.deck4R2.Location = new System.Drawing.Point(0, 49);
+            this.deck4R2.Name = "deck4R2";
+            this.deck4R2.Size = new System.Drawing.Size(66, 21);
+            this.deck4R2.TabIndex = 1;
+            this.deck4R2.TabStop = true;
+            this.deck4R2.Text = "Spyro";
+            this.deck4R2.UseVisualStyleBackColor = true;
+            this.deck4R2.CheckedChanged += new System.EventHandler(this.Deck4R2_CheckedChanged);
+            // 
+            // deck4R1
+            // 
+            this.deck4R1.AutoSize = true;
+            this.deck4R1.Location = new System.Drawing.Point(0, 21);
+            this.deck4R1.Name = "deck4R1";
+            this.deck4R1.Size = new System.Drawing.Size(98, 21);
+            this.deck4R1.TabIndex = 0;
+            this.deck4R1.TabStop = true;
+            this.deck4R1.Text = "Baby Yoda";
+            this.deck4R1.UseVisualStyleBackColor = true;
+            this.deck4R1.CheckedChanged += new System.EventHandler(this.Deck4R1_CheckedChanged);
+            // 
             // panel3
             // 
             this.panel3.BackColor = System.Drawing.Color.Transparent;
@@ -694,20 +791,20 @@
             this.resetToolStripMenuItem,
             this.closeToolStripMenuItem});
             this.menuToolStripMenuItem.Name = "menuToolStripMenuItem";
-            this.menuToolStripMenuItem.Size = new System.Drawing.Size(58, 24);
+            this.menuToolStripMenuItem.Size = new System.Drawing.Size(60, 24);
             this.menuToolStripMenuItem.Text = "Menu";
             // 
             // resetToolStripMenuItem
             // 
             this.resetToolStripMenuItem.Name = "resetToolStripMenuItem";
-            this.resetToolStripMenuItem.Size = new System.Drawing.Size(120, 26);
+            this.resetToolStripMenuItem.Size = new System.Drawing.Size(128, 26);
             this.resetToolStripMenuItem.Text = "Reset";
             this.resetToolStripMenuItem.Click += new System.EventHandler(this.resetToolStripMenuItem_Click);
             // 
             // closeToolStripMenuItem
             // 
             this.closeToolStripMenuItem.Name = "closeToolStripMenuItem";
-            this.closeToolStripMenuItem.Size = new System.Drawing.Size(120, 26);
+            this.closeToolStripMenuItem.Size = new System.Drawing.Size(128, 26);
             this.closeToolStripMenuItem.Text = "close";
             this.closeToolStripMenuItem.Click += new System.EventHandler(this.closeToolStripMenuItem_Click);
             // 
@@ -716,37 +813,46 @@
             this.chooseDeckToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.deck1ToolStripMenuItem,
             this.deck2ToolStripMenuItem,
-            this.deck3ToolStripMenuItem});
+            this.deck3ToolStripMenuItem,
+            this.deck4ToolStripMenuItem});
             this.chooseDeckToolStripMenuItem.Name = "chooseDeckToolStripMenuItem";
-            this.chooseDeckToolStripMenuItem.Size = new System.Drawing.Size(106, 24);
+            this.chooseDeckToolStripMenuItem.Size = new System.Drawing.Size(108, 24);
             this.chooseDeckToolStripMenuItem.Text = "Change deck";
             // 
             // deck1ToolStripMenuItem
             // 
             this.deck1ToolStripMenuItem.Name = "deck1ToolStripMenuItem";
-            this.deck1ToolStripMenuItem.Size = new System.Drawing.Size(129, 26);
+            this.deck1ToolStripMenuItem.Size = new System.Drawing.Size(137, 26);
             this.deck1ToolStripMenuItem.Text = "Deck 1";
             this.deck1ToolStripMenuItem.Click += new System.EventHandler(this.deck1ToolStripMenuItem_Click);
             // 
             // deck2ToolStripMenuItem
             // 
             this.deck2ToolStripMenuItem.Name = "deck2ToolStripMenuItem";
-            this.deck2ToolStripMenuItem.Size = new System.Drawing.Size(129, 26);
+            this.deck2ToolStripMenuItem.Size = new System.Drawing.Size(137, 26);
             this.deck2ToolStripMenuItem.Text = "Deck 2";
             this.deck2ToolStripMenuItem.Click += new System.EventHandler(this.deck2ToolStripMenuItem_Click);
             // 
             // deck3ToolStripMenuItem
             // 
             this.deck3ToolStripMenuItem.Name = "deck3ToolStripMenuItem";
-            this.deck3ToolStripMenuItem.Size = new System.Drawing.Size(129, 26);
+            this.deck3ToolStripMenuItem.Size = new System.Drawing.Size(137, 26);
             this.deck3ToolStripMenuItem.Text = "Deck 3";
             this.deck3ToolStripMenuItem.Click += new System.EventHandler(this.deck3ToolStripMenuItem_Click);
+            // 
+            // deck4ToolStripMenuItem
+            // 
+            this.deck4ToolStripMenuItem.Name = "deck4ToolStripMenuItem";
+            this.deck4ToolStripMenuItem.Size = new System.Drawing.Size(137, 26);
+            this.deck4ToolStripMenuItem.Text = "Deck 4";
+            this.deck4ToolStripMenuItem.Click += new System.EventHandler(this.Deck4ToolStripMenuItem_Click);
             // 
             // BattleForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(727, 470);
+            this.Controls.Add(this.groupBoxDeck4);
             this.Controls.Add(this.feckermon3groupbox);
             this.Controls.Add(this.EnemyGroupBox);
             this.Controls.Add(this.feckermon2groupbox);
@@ -770,6 +876,8 @@
             this.feckermon3groupbox.PerformLayout();
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
+            this.groupBoxDeck4.ResumeLayout(false);
+            this.groupBoxDeck4.PerformLayout();
             this.panel3.ResumeLayout(false);
             this.panel3.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
@@ -840,6 +948,14 @@
         private System.Windows.Forms.RadioButton feckermon4Button;
         private System.Windows.Forms.RadioButton feckermon5Button;
         private System.Windows.Forms.RadioButton feckermon1Button;
+        private System.Windows.Forms.ToolStripMenuItem deck4ToolStripMenuItem;
+        private System.Windows.Forms.GroupBox groupBoxDeck4;
+        private System.Windows.Forms.RadioButton deck4R6;
+        private System.Windows.Forms.RadioButton deck4R5;
+        private System.Windows.Forms.RadioButton deck4R4;
+        private System.Windows.Forms.RadioButton deck4R3;
+        private System.Windows.Forms.RadioButton deck4R2;
+        private System.Windows.Forms.RadioButton deck4R1;
     }
 }
 

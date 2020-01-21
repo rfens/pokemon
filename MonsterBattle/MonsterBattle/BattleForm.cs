@@ -46,11 +46,11 @@ namespace MonsterBattle
                 button1.Enabled = false;
                 button2.Enabled = false;
                 button3.Enabled = false;
-                
+
                 attackTimer.Start();
-        
-               screenShakeTimer.Start();
-                gif_timer.Start();              
+
+                screenShakeTimer.Start();
+                gif_timer.Start();
             }
             else
             {
@@ -191,7 +191,7 @@ namespace MonsterBattle
                 pictureBox1.Width = 150;
                 Feckermonnamelabel.Text = "Tachanka";
             }
-        }      
+        }
 
         //Feckermon: sanic
         private void Feckermon3RadioButton_CheckedChanged(object sender, EventArgs e)
@@ -297,7 +297,7 @@ namespace MonsterBattle
         private void feckermon2_5radbuttn_CheckedChanged(object sender, EventArgs e)
         {
             if (feckermon2_5radbuttn.Checked == true)
-                {
+            {
                 pokemonChosen = true;
                 friendlyPictureBox.Image = Properties.Resources.spongebob;
                 friendlyPictureBox.Width = 150;
@@ -391,6 +391,83 @@ namespace MonsterBattle
             }
         }
 
+        //deck 4
+
+        //Baby Yoda
+        private void Deck4R1_CheckedChanged(object sender, EventArgs e)
+        {
+            if (deck4R1.Checked == true)
+            {
+                pokemonChosen = true;
+                friendlyPictureBox.Image = Properties.Resources.baby_yoda_meme_300x225_removebg_preview_removebg_preview;
+                friendlyPictureBox.Width = 150;
+                Feckermonnamelabel.Text = "Baby Yoda";
+            }
+        }
+
+        //Spyro
+
+        private void Deck4R2_CheckedChanged(object sender, EventArgs e)
+        {
+            if (deck4R2.Checked == true)
+            {
+                pokemonChosen = true;
+                friendlyPictureBox.Image = Properties.Resources.hqdefault_removebg_preview;
+                friendlyPictureBox.Width = 150;
+                Feckermonnamelabel.Text = "Spyro";
+            }
+        }
+        //Patrick
+
+        private void Deck4R3_CheckedChanged(object sender, EventArgs e)
+        {
+            if (deck4R3.Checked == true)
+            {
+                pokemonChosen = true;
+                friendlyPictureBox.Image = Properties.Resources.Surprised_Patrick_Masterpiece_Meme3_1024x1024_removebg_preview;
+                friendlyPictureBox.Width = 150;
+                Feckermonnamelabel.Text = "Patrick";
+            }
+        }
+        //Nemo
+        private void Deck4R4_CheckedChanged(object sender, EventArgs e)
+        {
+            if (deck4R4.Checked == true)
+            {
+                pokemonChosen = true;
+                friendlyPictureBox.Image = Properties.Resources._363e2738af6e7ff65c7ed7d87eaace88_removebg_preview;
+                friendlyPictureBox.Width = 150;
+                Feckermonnamelabel.Text = "Nemo";
+            }
+        }
+        //Olaf
+
+        private void Deck4R5_CheckedChanged(object sender, EventArgs e)
+        {
+            if (deck4R5.Checked == true)
+            {
+                pokemonChosen = true;
+                friendlyPictureBox.Image = Properties.Resources._705x397xFrozen_P202_P20__P20Olaf_P20Samantha_removebg_preview;
+                friendlyPictureBox.Width = 150;
+                Feckermonnamelabel.Text = "Olaf";
+            }
+
+        }
+
+        //Kaos
+
+        private void Deck4R6_CheckedChanged(object sender, EventArgs e)
+        {
+            if (deck4R6.Checked == true)
+            {
+                pokemonChosen = true;
+                friendlyPictureBox.Image = Properties.Resources.Skylanders_imaginators_removebg_preview;
+                friendlyPictureBox.Width = 150;
+                Feckermonnamelabel.Text = "Kaos";
+            }
+        }
+
+
         //---------------enemies---------------------//
 
         //enemy: dipsy
@@ -472,7 +549,7 @@ namespace MonsterBattle
             int randomAttack = randomGenerator.Next(1, 30);
             enemyHealthPictureBox.Width -= randomAttack;
 
-            if (enemyHealthPictureBox.Width == 0 || enemyHealthPictureBox.Width <0)
+            if (enemyHealthPictureBox.Width == 0 || enemyHealthPictureBox.Width < 0)
             {
                 MessageBox.Show("the enemy has fainted!");
                 MessageBox.Show("please reset the game in the menu bar.");
@@ -488,7 +565,7 @@ namespace MonsterBattle
             button1.Enabled = true;
             button2.Enabled = true;
             button3.Enabled = true;
-            if (pictureBox1.Width ==0 || pictureBox1.Width <0)
+            if (pictureBox1.Width == 0 || pictureBox1.Width < 0)
             {
                 MessageBox.Show("you have fainted.");
                 MessageBox.Show("please reset the game in the menu bar.");
@@ -554,6 +631,7 @@ namespace MonsterBattle
             Feckermongroupbox.Visible = true;
             feckermon2groupbox.Visible = false;
             feckermon3groupbox.Visible = false;
+            groupBoxDeck4.Visible = false;
         }
 
         //dropdown menu deck 2
@@ -562,6 +640,7 @@ namespace MonsterBattle
             feckermon2groupbox.Visible = true;
             Feckermongroupbox.Visible = false;
             feckermon3groupbox.Visible = false;
+            groupBoxDeck4.Visible = false;
         }
 
         //dropdown menu deck 3
@@ -570,7 +649,18 @@ namespace MonsterBattle
             feckermon3groupbox.Visible = true;
             Feckermongroupbox.Visible = false;
             feckermon2groupbox.Visible = false;
+            groupBoxDeck4.Visible = false;
+        }
+        //dropdown menu deck 4
+
+        private void Deck4ToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            groupBoxDeck4.Visible = true;
+            feckermon3groupbox.Visible = false;
+            Feckermongroupbox.Visible = false;
+            feckermon2groupbox.Visible = false;
         }
 
+        
     }
 }

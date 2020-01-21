@@ -115,6 +115,7 @@
     <None Include="Resources\attack_lightning.gif" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="Resources\Surprised-Patrick-Masterpiece-Meme3_1024x1024-removebg-preview.png" />
     <None Include="sounds\Yeet Sound Effect.wav" />
     <None Include="sounds\R2 D2 Scream.wav" />
     <None Include="sounds\bruh Sound Effect %28download%29.wav" />
@@ -163,11 +164,16 @@
     <None Include="afbeeldingen\bobross-removebg-preview.png" />
     <None Include="afbeeldingen\iron-man-removebg-preview.png" />
     <None Include="afbeeldingen\cc33AhQt-removebg-preview.png" />
+    <None Include="Resources\baby-yoda-meme-300x225-removebg-preview-removebg-preview.png" />
+    <None Include="Resources\363e2738af6e7ff65c7ed7d87eaace88-removebg-preview.png" />
+    <None Include="Resources\705x397xFrozen_P202_P20-_P20Olaf_P20Samantha-removebg-preview.png" />
     <Content Include="Resources\hidden_attack.gif" />
+    <None Include="Resources\hqdefault-removebg-preview.png" />
     <Content Include="Resources\pikachu.jpg" />
     <Content Include="Resources\eevee.jpg" />
     <Content Include="Resources\mew.jpg" />
     <Content Include="Resources\mewtwo.jpg" />
+    <None Include="Resources\Skylanders-imaginators-removebg-preview.png" />
     <Content Include="Resources\squirtle.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
