@@ -26,6 +26,8 @@ namespace MonsterBattle
             randomGenerator = new Random();
         }
 
+        //aanvalsset 1
+
         //attackbutton explosion
         private void attackButton_Click(object sender, EventArgs e)
         {
@@ -671,16 +673,16 @@ namespace MonsterBattle
             feckermon2groupbox.Visible = false;
         }
 
-        private void ChangeAttackSetToolStripMenuItem_Click(object sender, EventArgs e)
-        {
-            attackSet1GroupBox.Visible = true;
-            attackSet2GroupBox.Visible = false;
-        }
-
         private void AttackSet2ToolStripMenuItem_Click(object sender, EventArgs e)
         {
             attackSet1GroupBox.Visible = false;
             attackSet2GroupBox.Visible = true; 
+        }
+
+        private void AttackSet1ToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            attackSet1GroupBox.Visible = true;
+            attackSet2GroupBox.Visible = false;
         }
     }
 }

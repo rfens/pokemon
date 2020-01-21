@@ -92,10 +92,10 @@
             this.deck2ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.deck3ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.deck4ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.attackSet1GroupBox = new System.Windows.Forms.GroupBox();
             this.changeAttackSetToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.attackSet1ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.attackSet2ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.attackSet1GroupBox = new System.Windows.Forms.GroupBox();
             this.attackSet2GroupBox = new System.Windows.Forms.GroupBox();
             this.Feckermongroupbox.SuspendLayout();
             this.EnemyGroupBox.SuspendLayout();
@@ -126,7 +126,7 @@
             // button1
             // 
             this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.Location = new System.Drawing.Point(330, 22);
+            this.button1.Location = new System.Drawing.Point(316, 16);
             this.button1.Margin = new System.Windows.Forms.Padding(4);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(99, 36);
@@ -138,7 +138,7 @@
             // button2
             // 
             this.button2.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button2.Location = new System.Drawing.Point(437, 22);
+            this.button2.Location = new System.Drawing.Point(423, 16);
             this.button2.Margin = new System.Windows.Forms.Padding(4);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(155, 36);
@@ -150,7 +150,7 @@
             // button3
             // 
             this.button3.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button3.Location = new System.Drawing.Point(160, 22);
+            this.button3.Location = new System.Drawing.Point(150, 16);
             this.button3.Margin = new System.Windows.Forms.Padding(4);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(158, 36);
@@ -264,7 +264,7 @@
             // attackButton
             // 
             this.attackButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.attackButton.Location = new System.Drawing.Point(12, 22);
+            this.attackButton.Location = new System.Drawing.Point(0, 16);
             this.attackButton.Margin = new System.Windows.Forms.Padding(4);
             this.attackButton.Name = "attackButton";
             this.attackButton.Size = new System.Drawing.Size(142, 36);
@@ -577,7 +577,6 @@
             this.deck4R6.Name = "deck4R6";
             this.deck4R6.Size = new System.Drawing.Size(61, 21);
             this.deck4R6.TabIndex = 5;
-            this.deck4R6.TabStop = true;
             this.deck4R6.Text = "Kaos";
             this.deck4R6.UseVisualStyleBackColor = true;
             this.deck4R6.CheckedChanged += new System.EventHandler(this.Deck4R6_CheckedChanged);
@@ -589,7 +588,6 @@
             this.deck4R5.Name = "deck4R5";
             this.deck4R5.Size = new System.Drawing.Size(55, 21);
             this.deck4R5.TabIndex = 4;
-            this.deck4R5.TabStop = true;
             this.deck4R5.Text = "Olaf";
             this.deck4R5.UseVisualStyleBackColor = true;
             this.deck4R5.CheckedChanged += new System.EventHandler(this.Deck4R5_CheckedChanged);
@@ -601,7 +599,6 @@
             this.deck4R4.Name = "deck4R4";
             this.deck4R4.Size = new System.Drawing.Size(66, 21);
             this.deck4R4.TabIndex = 3;
-            this.deck4R4.TabStop = true;
             this.deck4R4.Text = "Nemo";
             this.deck4R4.UseVisualStyleBackColor = true;
             this.deck4R4.CheckedChanged += new System.EventHandler(this.Deck4R4_CheckedChanged);
@@ -613,7 +610,6 @@
             this.deck4R3.Name = "deck4R3";
             this.deck4R3.Size = new System.Drawing.Size(72, 21);
             this.deck4R3.TabIndex = 2;
-            this.deck4R3.TabStop = true;
             this.deck4R3.Text = "Patrick";
             this.deck4R3.UseVisualStyleBackColor = true;
             this.deck4R3.CheckedChanged += new System.EventHandler(this.Deck4R3_CheckedChanged);
@@ -625,7 +621,6 @@
             this.deck4R2.Name = "deck4R2";
             this.deck4R2.Size = new System.Drawing.Size(66, 21);
             this.deck4R2.TabIndex = 1;
-            this.deck4R2.TabStop = true;
             this.deck4R2.Text = "Spyro";
             this.deck4R2.UseVisualStyleBackColor = true;
             this.deck4R2.CheckedChanged += new System.EventHandler(this.Deck4R2_CheckedChanged);
@@ -633,6 +628,7 @@
             // deck4R1
             // 
             this.deck4R1.AutoSize = true;
+            this.deck4R1.Checked = true;
             this.deck4R1.Location = new System.Drawing.Point(0, 21);
             this.deck4R1.Name = "deck4R1";
             this.deck4R1.Size = new System.Drawing.Size(98, 21);
@@ -646,7 +642,6 @@
             // 
             this.panel1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("panel1.BackgroundImage")));
             this.panel1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.panel1.Controls.Add(this.attackSet2GroupBox);
             this.panel1.Controls.Add(this.panel3);
             this.panel1.Controls.Add(this.panel2);
             this.panel1.Controls.Add(this.enemyPictureBox);
@@ -830,43 +825,30 @@
             // deck1ToolStripMenuItem
             // 
             this.deck1ToolStripMenuItem.Name = "deck1ToolStripMenuItem";
-            this.deck1ToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
+            this.deck1ToolStripMenuItem.Size = new System.Drawing.Size(137, 26);
             this.deck1ToolStripMenuItem.Text = "Deck 1";
             this.deck1ToolStripMenuItem.Click += new System.EventHandler(this.deck1ToolStripMenuItem_Click);
             // 
             // deck2ToolStripMenuItem
             // 
             this.deck2ToolStripMenuItem.Name = "deck2ToolStripMenuItem";
-            this.deck2ToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
+            this.deck2ToolStripMenuItem.Size = new System.Drawing.Size(137, 26);
             this.deck2ToolStripMenuItem.Text = "Deck 2";
             this.deck2ToolStripMenuItem.Click += new System.EventHandler(this.deck2ToolStripMenuItem_Click);
             // 
             // deck3ToolStripMenuItem
             // 
             this.deck3ToolStripMenuItem.Name = "deck3ToolStripMenuItem";
-            this.deck3ToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
+            this.deck3ToolStripMenuItem.Size = new System.Drawing.Size(137, 26);
             this.deck3ToolStripMenuItem.Text = "Deck 3";
             this.deck3ToolStripMenuItem.Click += new System.EventHandler(this.deck3ToolStripMenuItem_Click);
             // 
             // deck4ToolStripMenuItem
             // 
             this.deck4ToolStripMenuItem.Name = "deck4ToolStripMenuItem";
-            this.deck4ToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
+            this.deck4ToolStripMenuItem.Size = new System.Drawing.Size(137, 26);
             this.deck4ToolStripMenuItem.Text = "Deck 4";
             this.deck4ToolStripMenuItem.Click += new System.EventHandler(this.Deck4ToolStripMenuItem_Click);
-            // 
-            // attackSet1GroupBox
-            // 
-            this.attackSet1GroupBox.Controls.Add(this.attackButton);
-            this.attackSet1GroupBox.Controls.Add(this.button3);
-            this.attackSet1GroupBox.Controls.Add(this.button1);
-            this.attackSet1GroupBox.Controls.Add(this.button2);
-            this.attackSet1GroupBox.Location = new System.Drawing.Point(0, 321);
-            this.attackSet1GroupBox.Name = "attackSet1GroupBox";
-            this.attackSet1GroupBox.Size = new System.Drawing.Size(728, 62);
-            this.attackSet1GroupBox.TabIndex = 6;
-            this.attackSet1GroupBox.TabStop = false;
-            this.attackSet1GroupBox.Text = "Attack Set 1";
             // 
             // changeAttackSetToolStripMenuItem
             // 
@@ -876,26 +858,40 @@
             this.changeAttackSetToolStripMenuItem.Name = "changeAttackSetToolStripMenuItem";
             this.changeAttackSetToolStripMenuItem.Size = new System.Drawing.Size(144, 24);
             this.changeAttackSetToolStripMenuItem.Text = "Change Attack Set";
-            this.changeAttackSetToolStripMenuItem.Click += new System.EventHandler(this.ChangeAttackSetToolStripMenuItem_Click);
             // 
             // attackSet1ToolStripMenuItem
             // 
             this.attackSet1ToolStripMenuItem.Name = "attackSet1ToolStripMenuItem";
             this.attackSet1ToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
             this.attackSet1ToolStripMenuItem.Text = "Attack Set 1";
+            this.attackSet1ToolStripMenuItem.Click += new System.EventHandler(this.AttackSet1ToolStripMenuItem_Click);
             // 
             // attackSet2ToolStripMenuItem
             // 
             this.attackSet2ToolStripMenuItem.Name = "attackSet2ToolStripMenuItem";
             this.attackSet2ToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
-            this.attackSet2ToolStripMenuItem.Text = "gr";
+            this.attackSet2ToolStripMenuItem.Text = "Attack Set 2";
             this.attackSet2ToolStripMenuItem.Click += new System.EventHandler(this.AttackSet2ToolStripMenuItem_Click);
+            // 
+            // attackSet1GroupBox
+            // 
+            this.attackSet1GroupBox.Controls.Add(this.attackButton);
+            this.attackSet1GroupBox.Controls.Add(this.button3);
+            this.attackSet1GroupBox.Controls.Add(this.button1);
+            this.attackSet1GroupBox.Controls.Add(this.button2);
+            this.attackSet1GroupBox.Controls.Add(this.attackSet2GroupBox);
+            this.attackSet1GroupBox.Location = new System.Drawing.Point(0, 324);
+            this.attackSet1GroupBox.Name = "attackSet1GroupBox";
+            this.attackSet1GroupBox.Size = new System.Drawing.Size(728, 59);
+            this.attackSet1GroupBox.TabIndex = 6;
+            this.attackSet1GroupBox.TabStop = false;
+            this.attackSet1GroupBox.Text = "Attack Set 1";
             // 
             // attackSet2GroupBox
             // 
-            this.attackSet2GroupBox.Location = new System.Drawing.Point(239, 164);
+            this.attackSet2GroupBox.Location = new System.Drawing.Point(0, 1);
             this.attackSet2GroupBox.Name = "attackSet2GroupBox";
-            this.attackSet2GroupBox.Size = new System.Drawing.Size(722, 62);
+            this.attackSet2GroupBox.Size = new System.Drawing.Size(614, 52);
             this.attackSet2GroupBox.TabIndex = 5;
             this.attackSet2GroupBox.TabStop = false;
             this.attackSet2GroupBox.Text = "Attack Set 2";
