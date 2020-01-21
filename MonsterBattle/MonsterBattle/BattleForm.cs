@@ -252,7 +252,7 @@ namespace MonsterBattle
             {
                 pokemonChosen = true;
                 friendlyPictureBox.Image = Properties.Resources.eeyore;
-                pictureBox1.Width = 150;
+                friendlyPictureBox.Width = 150;
                 Feckermonnamelabel.Text = "Eeyore";
             }
         }
@@ -264,7 +264,7 @@ namespace MonsterBattle
             {
                 pokemonChosen = true;
                 friendlyPictureBox.Image = Properties.Resources.perry;
-                pictureBox1.Width = 150;
+                friendlyPictureBox.Width = 150;
                 Feckermonnamelabel.Text = "Perry";
             }
         }
@@ -276,7 +276,7 @@ namespace MonsterBattle
             {
                 pokemonChosen = true;
                 friendlyPictureBox.Image = Properties.Resources.jerry;
-                pictureBox1.Width = 150;
+                friendlyPictureBox.Width = 150;
                 Feckermonnamelabel.Text = "Jerry";
             }
         }
@@ -288,7 +288,7 @@ namespace MonsterBattle
             {
                 pokemonChosen = true;
                 friendlyPictureBox.Image = Properties.Resources.knukles;
-                pictureBox1.Width = 150;
+                friendlyPictureBox.Width = 150;
                 Feckermonnamelabel.Text = "Knuckles";
             }
         }
@@ -300,7 +300,7 @@ namespace MonsterBattle
                 {
                 pokemonChosen = true;
                 friendlyPictureBox.Image = Properties.Resources.spongebob;
-                pictureBox1.Width = 150;
+                friendlyPictureBox.Width = 150;
                 Feckermonnamelabel.Text = "Spongebob";
             }
         }
@@ -312,7 +312,7 @@ namespace MonsterBattle
             {
                 pokemonChosen = true;
                 friendlyPictureBox.Image = Properties.Resources.Cleaner;
-                pictureBox1.Width = 150;
+                friendlyPictureBox.Width = 150;
                 Feckermonnamelabel.Text = "Cleaner";
             }
         }
@@ -326,7 +326,7 @@ namespace MonsterBattle
             {
                 pokemonChosen = true;
                 friendlyPictureBox.Image = Properties.Resources.deadpool;
-                pictureBox1.Width = 150;
+                friendlyPictureBox.Width = 150;
                 Feckermonnamelabel.Text = "Deadpool";
             }
         }
@@ -338,7 +338,7 @@ namespace MonsterBattle
             {
                 pokemonChosen = true;
                 friendlyPictureBox.Image = Properties.Resources.toad;
-                pictureBox1.Width = 150;
+                friendlyPictureBox.Width = 150;
                 Feckermonnamelabel.Text = "Toad";
             }
         }
@@ -350,7 +350,7 @@ namespace MonsterBattle
             {
                 pokemonChosen = true;
                 friendlyPictureBox.Image = Properties.Resources.cat;
-                pictureBox1.Width = 150;
+                friendlyPictureBox.Width = 150;
                 Feckermonnamelabel.Text = "Hitler Cat";
             }
         }
@@ -362,7 +362,7 @@ namespace MonsterBattle
             {
                 pokemonChosen = true;
                 friendlyPictureBox.Image = Properties.Resources.bobross;
-                pictureBox1.Width = 150;
+                friendlyPictureBox.Width = 150;
                 Feckermonnamelabel.Text = "Bob Ross";
             }
         }
@@ -374,7 +374,7 @@ namespace MonsterBattle
             {
                 pokemonChosen = true;
                 friendlyPictureBox.Image = Properties.Resources.ironman;
-                pictureBox1.Width = 150;
+                friendlyPictureBox.Width = 150;
                 Feckermonnamelabel.Text = "Iron Man";
             }
         }
@@ -386,7 +386,7 @@ namespace MonsterBattle
             {
                 pokemonChosen = true;
                 friendlyPictureBox.Image = Properties.Resources.bartje;
-                pictureBox1.Width = 150;
+                friendlyPictureBox.Width = 150;
                 Feckermonnamelabel.Text = "Cult leider Bart";
             }
         }
