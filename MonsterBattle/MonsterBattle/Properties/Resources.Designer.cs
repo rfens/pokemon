@@ -19,7 +19,7 @@ namespace MonsterBattle.Properties {
     // class via a tool like ResGen or Visual Studio.
     // To add or remove a member, edit your .ResX file then rerun ResGen
     // with the /str option, or rebuild your VS project.
-    [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Resources.Tools.StronglyTypedResourceBuilder", "15.0.0.0")]
+    [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Resources.Tools.StronglyTypedResourceBuilder", "16.0.0.0")]
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
     [global::System.Runtime.CompilerServices.CompilerGeneratedAttribute()]
     internal class Resources {
@@ -63,9 +63,39 @@ namespace MonsterBattle.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap _363e2738af6e7ff65c7ed7d87eaace88_removebg_preview {
+            get {
+                object obj = ResourceManager.GetObject("_363e2738af6e7ff65c7ed7d87eaace88_removebg_preview", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap _705x397xFrozen_P202_P20__P20Olaf_P20Samantha_removebg_preview {
+            get {
+                object obj = ResourceManager.GetObject("_705x397xFrozen_P202_P20__P20Olaf_P20Samantha_removebg_preview", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap attack_lightning {
             get {
                 object obj = ResourceManager.GetObject("attack_lightning", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap baby_yoda_meme_300x225_removebg_preview_removebg_preview {
+            get {
+                object obj = ResourceManager.GetObject("baby_yoda_meme_300x225_removebg_preview_removebg_preview", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -321,6 +351,16 @@ namespace MonsterBattle.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap hqdefault_removebg_preview {
+            get {
+                object obj = ResourceManager.GetObject("hqdefault_removebg_preview", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap ironman {
             get {
                 object obj = ResourceManager.GetObject("ironman", resourceCulture);
@@ -450,6 +490,16 @@ namespace MonsterBattle.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap Skylanders_imaginators_removebg_preview {
+            get {
+                object obj = ResourceManager.GetObject("Skylanders_imaginators_removebg_preview", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap spongebob {
             get {
                 object obj = ResourceManager.GetObject("spongebob", resourceCulture);
@@ -463,6 +513,16 @@ namespace MonsterBattle.Properties {
         internal static System.Drawing.Bitmap squirtle {
             get {
                 object obj = ResourceManager.GetObject("squirtle", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Surprised_Patrick_Masterpiece_Meme3_1024x1024_removebg_preview {
+            get {
+                object obj = ResourceManager.GetObject("Surprised_Patrick_Masterpiece_Meme3_1024x1024_removebg_preview", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
