@@ -468,7 +468,6 @@ namespace MonsterBattle
         //attack enemy
         private void enemyAttack()
         {
-
             enemyPictureBox.Image = (Image)enemyPictureBox.Tag;
             int randomAttack = randomGenerator.Next(1, 30);
             enemyHealthPictureBox.Width -= randomAttack;
