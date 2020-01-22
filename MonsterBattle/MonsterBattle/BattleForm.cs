@@ -562,7 +562,7 @@ namespace MonsterBattle
             //attack
             int randomAttack1 = randomGenerator.Next(1, 30);
             pictureBox1.Width -= randomAttack1;
-            MessageBox.Show("The enemy has dealt " + randomAttack1.ToString() + " Damage to you." + " You have dealt" + randomAttack.ToString() + " damage");
+            MessageBox.Show("The enemy has dealt " + randomAttack1.ToString() + " Damage to you." + " You have dealt " + randomAttack.ToString() + " damage");
             attackButton.Enabled = true;
             button1.Enabled = true;
             button2.Enabled = true;
